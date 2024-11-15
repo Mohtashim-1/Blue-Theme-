@@ -20,15 +20,16 @@
 }
 [data-theme=modern_ui_theme] ul li a:hover {
     background-color: var(--second-color);
-    color: #fff;
+    color: #fff !important;
 }
 /* Main */
 [data-theme=modern_ui_theme] body {
 	font-size: 14px;
-	background-color: #f3f6f9;
+	background-color: #f3f6f9 !important;
 }
 [data-theme=modern_ui_theme]a {
-    color: #666;
+    /* color: #666; */
+    color: red !important;
 	font-weight: 500;
 }
 [data-theme=modern_ui_theme] .small, small {
@@ -44,18 +45,19 @@
     background: linear-gradient(to right, var(--main-color), var(--second-color));
 }
 [data-theme=modern_ui_theme] .standard-sidebar-item.selected a{
-    color: #fff;
+    color: #fff !important;
 }
+
 [data-theme=modern_ui_theme] .standard-sidebar-item.selected a svg{
-    fill: #fff;
+    fill: #fff !important;
 }
 [data-theme=modern_ui_theme] .standard-sidebar-item:hover{
     background-color: var(--second-color);
 }
 [data-theme=modern_ui_theme] .standard-sidebar-item:hover a,
 [data-theme=modern_ui_theme] .standard-sidebar-item:hover svg{
-    color: #fff;
-    fill: #fff;
+    color: #fff !important;
+    fill: #fff !important;
 }
 
 
@@ -87,7 +89,7 @@
     color: var(--main-color);
 }
 [data-theme=modern_ui_theme] .widget-body .link-item:hover{
-    color: #fff;
+    color: #fff !important;
     background: var(--third-color);
 }
 /* Sidebar */
@@ -106,7 +108,8 @@
 /* Dropdowns */
 [data-theme=modern_ui_theme] .dropdown-menu>li>a {
     font-size: 13px;
-	color:#666;
+	/* color:#666; */
+    color: red !important;
 	font-weight: 500;
 }
 [data-theme=modern_ui_theme] .awesomplete > ul > li[aria-selected=true]{
@@ -116,7 +119,7 @@
     background: linear-gradient(to right, var(--main-color), var(--second-color));
 }
 [data-theme=modern_ui_theme] .awesomplete > ul > li:hover a{
-    color: #fff;
+    color: #fff !important;
 }
 /* Page Heading */
 [data-theme=modern_ui_theme] .page-head {
@@ -136,7 +139,7 @@
 
 /*Main Section */
 [data-theme=modern_ui_theme] .list-row-head {
-    background-color: #f3f6f9;
+    background-color: #f3f6f9 !important;
     border-bottom: 1px solid #e4e4e4 !important;
 }
 
